@@ -18,7 +18,7 @@
 </head>
 <body class="w-full md:max-w-4xl  lg:max-w-7xl  min-h-screen h-auto bg-base-light text-content-primary-light dark:bg-base-dark  dark:text-content-primary-dark leading-relaxed  ">
 <div class="px-4 pb-8 pt-0">
-    <div class="w-full py-4"> {% block nav_secondary%} {% endblock%} </div>
+    <div class="w-full md:max-w-4xl lg:max-w-7xl mx-auto py-4"> {% block nav_secondary%} {% endblock%} </div>
     {% block body %}{% endblock %}
 </div>
 {% include '_parts/_footer.html.twig' %}
