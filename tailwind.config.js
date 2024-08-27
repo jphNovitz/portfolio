@@ -6,6 +6,20 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                'jakarta': ['jakartaSans', 'sans-serif'],
+            },
+            fontWeight: {
+                'thin': '100',
+                'normal': '400',
+                'bold': '700',
+                'black': '900',
+            },
+            fontStretch: {
+                'condensed': '75%',
+                'normal': '100%',
+                'expanded': '125%',
+            },
             transitionProperty: {
                 'spacing': 'margin, padding, display',
                 'width': 'width',

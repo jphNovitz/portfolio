@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'jakartaSans';
+    src: url('../fonts/plus_jakarta_sans/PlusJakartaSans-VariableFont_wght.ttf') format('woff2-variations');
+    font-weight: 100 900; /* Plage de poids supportée */
+    font-stretch: 75% 125%; /* Plage d'étirement si applicable */
+    font-style: oblique 0deg 12deg; /* Plage d'inclinaison si applicable */
+}
