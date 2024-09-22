@@ -4,10 +4,13 @@ title:
   cta:
     h1: "Développeur web à Liège"
     p: "Passionné par le code et le web, je suis disponible pour vous aider dans votre création d'expériences numériques."
+  my_works: "Mes realisations"
+
 button:
   login: "Connexion"
   logout: "Déconnexion"
   register: "Je m'enregistre"
+  contactme: "Contactez-moi"
 form:
   agree: "J'accepte les Conditions"
   password: "Mot de passe"
